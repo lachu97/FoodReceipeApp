@@ -31,12 +31,14 @@ class MainActivity : ComponentActivity() {
                             .padding(10.dp)
                     ) {
                         toppart()
-                        Spacer(modifier = Modifier.padding(10.dp))
+                        Spacer(modifier = Modifier.padding(5.dp))
                         description()
-                        Spacer(modifier = Modifier.padding(10.dp))
+                        Spacer(modifier = Modifier.padding(5.dp))
                         Chipgrp(list = stringlist)
-                        Spacer(modifier = Modifier.padding(10.dp))
+                        Spacer(modifier = Modifier.padding(5.dp))
                         CCArds()
+                        Spacer(modifier = Modifier.padding(5.dp))
+                        maintoload()
                     }
                 }
             }

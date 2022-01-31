@@ -11,6 +11,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
@@ -78,7 +79,7 @@ fun Chips(name: String) {
             .width(90.dp),
         shape = RoundedCornerShape(32.dp),
         border = BorderStroke(1.dp, color = Color.LightGray),
-        backgroundColor = Color.Transparent,
+        backgroundColor = colorResource(id = R.color.mygray),
         elevation = 8.dp,
     ) {
         Column(modifier = Modifier.fillMaxSize()) {
